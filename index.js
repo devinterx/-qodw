@@ -1,0 +1,1 @@
+console.log('Hello from Quality of Dwarf work');

@@ -1,0 +1,45 @@
+{
+  "name": "qodw",
+  "title": "Quality of Dwarf work",
+  "description": "Quality of Dwarf work - Theme & Utils for D&D5e FVTT Module",
+  "author": "DeVinterX",
+  "version": "1.0.0",
+  "system": ["dnd5e"],
+  "socket": true,
+  "esmodules": [
+    "index.js"
+  ],
+  "scripts": [],
+  "styles": [],
+  "dependencies": [
+    {
+      "name": "dnd5e",
+      "type": "system"
+    },
+    {
+      "name": "lib-wrapper",
+      "type": "module"
+    },
+    {
+      "name": "socketlib",
+      "type": "module"
+    }    
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "allowBugReporter": true
+  },
+  "minimumCoreVersion": "9.238",
+  "compatibleCoreVersion": "9",
+  "minimumSystemVersion": "1.5.6",
+  "bugs": "https://github.com/devinterx/foundry-qodw/issues",
+  "url": "https://github.com/devinterx/foundry-qodw",
+  "manifest": "https://raw.githubusercontent.com/devinterx/foundry-qodw/master/module.json",
+  "download": "https://github.com/devinterx/foundry-qodw/archive/refs/heads/master.zip"
+}
